@@ -108,7 +108,7 @@ const About = () => {
     return (
         <main className='about'>
             <Helmet>
-                <title>Realest Estate - About</title>
+                <title>myHomes - About</title>
                 <meta
                     name='description'
                     content='About us'

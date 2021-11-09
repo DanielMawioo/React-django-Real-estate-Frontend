@@ -27,7 +27,7 @@ const Login = ({ login, isAuthenticated }) => {
     return (
         <div className='auth'>
             <Helmet>
-                <title>Realest Estate - Login</title>
+                <title>myHomes - Login</title>
                 <meta
                     name='description'
                     content='login page'

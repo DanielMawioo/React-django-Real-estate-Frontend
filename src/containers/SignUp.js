@@ -33,7 +33,7 @@ const SignUp = ({ setAlert, signup, isAuthenticated }) => {
     return (
         <div className='auth'>
             <Helmet>
-                <title>Realest Estate - Sign Up</title>
+                <title>myHomes- Sign Up</title>
                 <meta
                     name='description'
                     content='sign up page'

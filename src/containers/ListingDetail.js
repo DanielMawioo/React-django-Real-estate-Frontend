@@ -276,7 +276,7 @@ const ListingDetail = (props) => {
     return (
         <div className='listingdetail'>
             <Helmet>
-                <title>Realest Estate - Listing | {`${listing.title}`}</title>
+                <title>myHomes - Listing | {`${listing.title}`}</title>
                 <meta
                     name='description'
                     content='Listing detail'

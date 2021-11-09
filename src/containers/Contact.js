@@ -50,7 +50,7 @@ const Contact = ({ setAlert }) => {
     return (
         <div className='contact'>
             <Helmet>
-                <title>Realest Estate - Contact</title>
+                <title>myHomes - Contact</title>
                 <meta
                     name='description'
                     content='Contact us'

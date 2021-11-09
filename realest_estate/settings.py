@@ -25,7 +25,7 @@ SECRET_KEY = '#i+h8pcs5sx6kb9$^z_z$ruu4x^z7-m*by$ed-=h#9pefx@m_%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'danhomes.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -46,7 +46,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -93,8 +92,8 @@ DATABASES = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '[YOUR EMAIL]'
-EMAIL_HOST_PASSWORD = '[YOUR APP PASSWORD]'
+EMAIL_HOST_USER = 'mawioodaniel43@gmail.com'
+EMAIL_HOST_PASSWORD = 'testpassword'
 EMAIL_USE_TLS = True
 
 # Password validation

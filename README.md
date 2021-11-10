@@ -16,7 +16,9 @@ npm run build
 ## then run locally
 ```
 npm start
+```
 or 
+```
 yarn start
 ```
 

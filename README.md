@@ -7,11 +7,18 @@ This is a large project that shows how to implement a real estate application wi
 
 In order to test out this project, follow these steps:
 - clone the repository
-- run: npm install, this will install the required frontend packages
-- run: npm run build, this will make the production react build folder
-- run: python3 -m venv venv
-- then activate the virtual environment
-- run: pip install -r requirements.txt
+ ```
+npm install
+```
+```
+npm run build
+```
+## then run locally
+```
+npm start
+or 
+yarn start
+```
 
 ## Backend Api running on heroku
 Backend Repo [Django-React Real-estate backend Repo](https://github.com/DanielMawioo/React-Django-Real-Estate-Backend-API.git)-- hosted on heroku, links on the repo.
